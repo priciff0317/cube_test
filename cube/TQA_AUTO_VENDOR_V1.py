@@ -36,6 +36,7 @@ def calculate_text(text):
             arr_calculate_result.append(i)
         else:
             continue
+    arr_calculate_result.sort()
     #計算字元
     for i in range(len(arr_calculate_result)):
         total_char = merge_test.count(arr_calculate_result[i])
